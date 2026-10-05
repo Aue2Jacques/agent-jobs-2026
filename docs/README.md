@@ -14,6 +14,7 @@
 | 文件 | 内容 |
 |---|---|
 | [jd-samples.md](jd-samples.md) | 30 条代表性 JD：公司、岗位、招聘类型、要求原文摘录、链接 |
+| [research-landscape-2026-10.md](research-landscape-2026-10.md) | 调研：harness 评测与找 bug 的论文、项目、空位和做深的办法 |
 | [project-direction.md](project-direction.md) | 从 JD 倒推简历核心项目：推荐方向、需求证据、底座、风险、先验证的假设 |
 | [experiments/E1-stream-faults.md](experiments/E1-stream-faults.md) | 小实验：三家常见 harness 在 13 种流式故障下的表现 |
 | [interviews.md](interviews.md) | 16 篇一手面经 + 5 篇二手总结：问了什么、怎么追问 |
