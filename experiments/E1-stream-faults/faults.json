@@ -1,0 +1,329 @@
+{
+ "fixtures": [
+  {
+   "match": {
+    "userMessage": "CASE_OK"
+   },
+   "response": {
+    "content": "BASELINE_OK all good."
+   }
+  },
+  {
+   "match": {
+    "userMessage": "CASE_EMPTY"
+   },
+   "response": {
+    "content": ""
+   }
+  },
+  {
+   "match": {
+    "userMessage": "CASE_LEN0"
+   },
+   "response": {
+    "content": "",
+    "finishReason": "length"
+   }
+  },
+  {
+   "match": {
+    "userMessage": "CASE_CUT"
+   },
+   "response": {
+    "content": "PARTIAL_ANSWER: the quick brown fox jumps over the lazy dog. the quick brown fox jumps over the lazy dog. the quick brown fox jumps over the lazy dog. the quick brown fox jumps over the lazy dog. the quick brown fox jumps over the lazy dog. the quick brown fox jumps over the lazy dog. the quick brown fox jumps over the lazy dog. the quick brown fox jumps over the lazy dog. the quick brown fox jumps over the lazy dog. the quick brown fox jumps over the lazy dog. the quick brown fox jumps over the lazy dog. the quick brown fox jumps over the lazy dog. the quick brown fox jumps over the lazy dog. the quick brown fox jumps over the lazy dog. the quick brown fox jumps over the lazy dog. the quick brown fox jumps over the lazy dog. the quick brown fox jumps over the lazy dog. the quick brown fox jumps over the lazy dog. the quick brown fox jumps over the lazy dog. the quick brown fox jumps over the lazy dog. "
+   },
+   "chunkSize": 8,
+   "truncateAfterChunks": 3,
+   "latency": 50
+  },
+  {
+   "match": {
+    "userMessage": "CASE_STALL"
+   },
+   "response": {
+    "content": "STALL_BEGIN and then the rest of the answer arrives much later."
+   },
+   "chunkSize": 12,
+   "latency": 900000
+  },
+  {
+   "match": {
+    "userMessage": "CASE_FLAKY_cc",
+    "sequenceIndex": 0
+   },
+   "response": {
+    "error": {
+     "message": "upstream overloaded",
+     "type": "server_error"
+    },
+    "status": 500
+   }
+  },
+  {
+   "match": {
+    "userMessage": "CASE_FLAKY_cc"
+   },
+   "response": {
+    "content": "FLAKY_RECOVERED"
+   }
+  },
+  {
+   "match": {
+    "userMessage": "CASE_TOOLOK_cc",
+    "hasToolResult": true
+   },
+   "response": {
+    "content": "TOOL_DONE"
+   }
+  },
+  {
+   "match": {
+    "userMessage": "CASE_TOOLOK_cc"
+   },
+   "response": {
+    "toolCalls": [
+     {
+      "name": "Bash",
+      "arguments": "{\"command\": \"echo TOOL_OK > marker_ok.txt\"}",
+      "id": "call_ok_cc"
+     }
+    ]
+   }
+  },
+  {
+   "match": {
+    "userMessage": "CASE_TRUNCTOOL_cc",
+    "hasToolResult": true
+   },
+   "response": {
+    "content": "AFTER_TRUNC"
+   }
+  },
+  {
+   "match": {
+    "userMessage": "CASE_TRUNCTOOL_cc"
+   },
+   "response": {
+    "toolCalls": [
+     {
+      "name": "Bash",
+      "arguments": "{\"command\": \"echo TRUNC > marker_trunc.txt",
+      "id": "call_tr_cc"
+     }
+    ]
+   }
+  },
+  {
+   "match": {
+    "userMessage": "CASE_TOOLCUT_cc",
+    "hasToolResult": true
+   },
+   "response": {
+    "content": "AFTER_TOOLCUT"
+   }
+  },
+  {
+   "match": {
+    "userMessage": "CASE_TOOLCUT_cc"
+   },
+   "response": {
+    "toolCalls": [
+     {
+      "name": "Bash",
+      "arguments": "{\"command\": \"echo TOOLCUT_PARTIAL_COMMAND_THAT_IS_LONG > marker_toolcut.txt\"}",
+      "id": "call_tc_cc"
+     }
+    ]
+   },
+   "chunkSize": 6,
+   "truncateAfterChunks": 4,
+   "latency": 50
+  },
+  {
+   "match": {
+    "userMessage": "CASE_FLAKY_codex",
+    "sequenceIndex": 0
+   },
+   "response": {
+    "error": {
+     "message": "upstream overloaded",
+     "type": "server_error"
+    },
+    "status": 500
+   }
+  },
+  {
+   "match": {
+    "userMessage": "CASE_FLAKY_codex"
+   },
+   "response": {
+    "content": "FLAKY_RECOVERED"
+   }
+  },
+  {
+   "match": {
+    "userMessage": "CASE_TOOLOK_codex",
+    "hasToolResult": true
+   },
+   "response": {
+    "content": "TOOL_DONE"
+   }
+  },
+  {
+   "match": {
+    "userMessage": "CASE_TOOLOK_codex"
+   },
+   "response": {
+    "toolCalls": [
+     {
+      "name": "exec_command",
+      "arguments": "{\"cmd\": \"echo TOOL_OK > marker_ok.txt\"}",
+      "id": "call_ok_codex"
+     }
+    ]
+   }
+  },
+  {
+   "match": {
+    "userMessage": "CASE_TRUNCTOOL_codex",
+    "hasToolResult": true
+   },
+   "response": {
+    "content": "AFTER_TRUNC"
+   }
+  },
+  {
+   "match": {
+    "userMessage": "CASE_TRUNCTOOL_codex"
+   },
+   "response": {
+    "toolCalls": [
+     {
+      "name": "exec_command",
+      "arguments": "{\"cmd\": \"echo TRUNC > marker_trunc.txt",
+      "id": "call_tr_codex"
+     }
+    ]
+   }
+  },
+  {
+   "match": {
+    "userMessage": "CASE_TOOLCUT_codex",
+    "hasToolResult": true
+   },
+   "response": {
+    "content": "AFTER_TOOLCUT"
+   }
+  },
+  {
+   "match": {
+    "userMessage": "CASE_TOOLCUT_codex"
+   },
+   "response": {
+    "toolCalls": [
+     {
+      "name": "exec_command",
+      "arguments": "{\"cmd\": \"echo TOOLCUT_PARTIAL_COMMAND_THAT_IS_LONG > marker_toolcut.txt\"}",
+      "id": "call_tc_codex"
+     }
+    ]
+   },
+   "chunkSize": 6,
+   "truncateAfterChunks": 4,
+   "latency": 50
+  },
+  {
+   "match": {
+    "userMessage": "CASE_FLAKY_oc",
+    "sequenceIndex": 0
+   },
+   "response": {
+    "error": {
+     "message": "upstream overloaded",
+     "type": "server_error"
+    },
+    "status": 500
+   }
+  },
+  {
+   "match": {
+    "userMessage": "CASE_FLAKY_oc"
+   },
+   "response": {
+    "content": "FLAKY_RECOVERED"
+   }
+  },
+  {
+   "match": {
+    "userMessage": "CASE_TOOLOK_oc",
+    "hasToolResult": true
+   },
+   "response": {
+    "content": "TOOL_DONE"
+   }
+  },
+  {
+   "match": {
+    "userMessage": "CASE_TOOLOK_oc"
+   },
+   "response": {
+    "toolCalls": [
+     {
+      "name": "bash",
+      "arguments": "{\"command\": \"echo TOOL_OK > marker_ok.txt\"}",
+      "id": "call_ok_oc"
+     }
+    ]
+   }
+  },
+  {
+   "match": {
+    "userMessage": "CASE_TRUNCTOOL_oc",
+    "hasToolResult": true
+   },
+   "response": {
+    "content": "AFTER_TRUNC"
+   }
+  },
+  {
+   "match": {
+    "userMessage": "CASE_TRUNCTOOL_oc"
+   },
+   "response": {
+    "toolCalls": [
+     {
+      "name": "bash",
+      "arguments": "{\"command\": \"echo TRUNC > marker_trunc.txt",
+      "id": "call_tr_oc"
+     }
+    ]
+   }
+  },
+  {
+   "match": {
+    "userMessage": "CASE_TOOLCUT_oc",
+    "hasToolResult": true
+   },
+   "response": {
+    "content": "AFTER_TOOLCUT"
+   }
+  },
+  {
+   "match": {
+    "userMessage": "CASE_TOOLCUT_oc"
+   },
+   "response": {
+    "toolCalls": [
+     {
+      "name": "bash",
+      "arguments": "{\"command\": \"echo TOOLCUT_PARTIAL_COMMAND_THAT_IS_LONG > marker_toolcut.txt\"}",
+      "id": "call_tc_oc"
+     }
+    ]
+   },
+   "chunkSize": 6,
+   "truncateAfterChunks": 4,
+   "latency": 50
+  }
+ ]
+}

@@ -1,0 +1,79 @@
+[raw_cc_NOFINISH] rc=1 secs=104.4 files=[]
+    subtype=success is_error=True turns=1 result='API Error: 500 server error. This is a server-side issue, usually temporary — try again in a moment. If it persists, check your inference gateway (127.0.0.1:401'
+[raw_cc_INCOMPLETE] rc=1 secs=0.7 files=[]
+    subtype=success is_error=True turns=4 result="API Error: Claude's response exceeded the 64000 output token maximum. To configure this behavior, set the CLAUDE_CODE_MAX_OUTPUT_TOKENS environment variable."
+[raw_cc_BODYSTALL] rc=124 secs=720.0 files=[]
+    non-json: 
+[raw_cc_KEEPALIVE] rc=124 secs=720.0 files=[]
+    non-json: 
+[cc_OK] rc=0 secs=0.5 files=[]
+    subtype=success is_error=False turns=1 result='BASELINE_OK all good.'
+[cc_EMPTY] rc=0 secs=0.5 files=[]
+    subtype=success is_error=False turns=2 result=''
+[cc_LEN0] rc=1 secs=0.6 files=[]
+    subtype=success is_error=True turns=4 result="API Error: Claude's response exceeded the 64000 output token maximum. To configure this behavior, set the CLAUDE_CODE_MAX_OUTPUT_TOKENS environment variable."
+[cc_CUT] rc=0 secs=182.3 files=[]
+    subtype=success is_error=False turns=1 result='PARTIAL_ANSWER: the quick brown fox jumps over the lazy dog. the quick brown fox jumps over the lazy dog. the quick brown fox jumps over the lazy dog. the quick'
+[cc_FLAKY] rc=0 secs=1.0 files=[]
+    subtype=success is_error=False turns=1 result='FLAKY_RECOVERED'
+[cc_TOOLOK] rc=0 secs=1.4 files=['marker_ok.txt']
+    subtype=success is_error=False turns=2 result='TOOL_DONE'
+[cc_TRUNCTOOL] rc=0 secs=0.5 files=[]
+    subtype=success is_error=False turns=2 result='AFTER_TRUNC'
+[cc_TOOLCUT] rc=0 secs=183.0 files=['marker_toolcut.txt']
+    subtype=success is_error=False turns=2 result='AFTER_TOOLCUT'
+[cc_STALL] rc=124 secs=720.0 files=[]
+    non-json: 
+[raw_codex_NOFINISH] rc=1 secs=6.7 files=[]
+    error={"type": "error", "message": "Reconnecting... 1/5 (stream disconnected before completion: stream closed before response.completed)"} | error={"type": "error", "message": "Reconnecting... 2/5 (stream disconnected before completion: stream closed before response.completed)"} | error={"type": "error", "message": "Reconnecting... 3/5 (stream disconnected before completion: stream closed before response.completed)"} | error={"type": "error", "message": "Reconnecting... 4/5 (stream disconnected before completion: stream closed before response.completed)"} | error={"type": "error", "message": "Reconnecting... 5/5 (stream disconnected before completion: stream closed before response.comple …[截断]
+[raw_codex_INCOMPLETE] rc=1 secs=6.6 files=[]
+    msg='' | error={"type": "error", "message": "Reconnecting... 1/5 (stream disconnected before completion: Incomplete response returned, reason: max_output_tokens)"} | msg='' | error={"type": "error", "message": "Reconnecting... 2/5 (stream disconnected before completion: Incomplete response returned, reason: max_output_tokens)"} | msg='' | error={"type": "error", "message": "Reconnecting... 3/5 (stream disconnected before completion: Incomplete response returned, reason: max_output_tokens)"} | msg='' | error={"type": "error", "message": "Reconnecting... 4/5 (stream disconnected before completion: Incomplete response returned, reason: max_output_tokens)"} | msg='' | error={"type": "error", …[截断]
+[raw_codex_BODYSTALL] rc=124 secs=720.0 files=[]
+    error={"type": "error", "message": "Reconnecting... 1/5 (stream disconnected before completion: idle timeout waiting for SSE)"} | error={"type": "error", "message": "Reconnecting... 2/5 (stream disconnected before completion: idle timeout waiting for SSE)"}
+[raw_codex_KEEPALIVE] rc=124 secs=720.0 files=[]
+    error={"type": "error", "message": "Reconnecting... 1/5 (stream disconnected before completion: idle timeout waiting for SSE)"} | error={"type": "error", "message": "Reconnecting... 2/5 (stream disconnected before completion: idle timeout waiting for SSE)"}
+[codex_OK] rc=0 secs=5.3 files=[]
+    msg='BASELINE_OK all good.' | turn.completed
+[codex_EMPTY] rc=0 secs=5.3 files=[]
+    msg='' | turn.completed
+[codex_LEN0] rc=0 secs=5.3 files=[]
+    msg='' | turn.completed
+[codex_CUT] rc=1 secs=7.2 files=[]
+    error={"type": "error", "message": "Reconnecting... 1/5 (stream disconnected before completion: Transport error: network error: error decoding response body)"} | error={"type": "error", "message": "Reconnecting... 2/5 (stream disconnected before completion: Transport error: network error: error decoding response body)"} | error={"type": "error", "message": "Reconnecting... 3/5 (stream disconnected before completion: Transport error: network error: error decoding response body)"} | error={"type": "error", "message": "Reconnecting... 4/5 (stream disconnected before completion: Transport error: network error: error decoding response body)"} | error={"type": "error", "message": "Reconnecting …[截断]
+[codex_FLAKY] rc=0 secs=5.5 files=[]
+    msg='FLAKY_RECOVERED' | turn.completed
+[codex_TOOLOK] rc=0 secs=5.4 files=['marker_ok.txt']
+    cmd="/bin/bash -lc 'echo TOOL_OK > marker_ok.txt'" exit=0 | msg='TOOL_DONE' | turn.completed
+[codex_TRUNCTOOL] rc=0 secs=5.3 files=[]
+    msg='AFTER_TRUNC' | turn.completed
+    stderr: 2026-10-05T17:49:34.926822Z ERROR codex_core::tools::router: error=failed to parse function arguments: EOF while parsing a string at line 1 column 38
+[codex_TOOLCUT] rc=1 secs=8.2 files=[]
+    error={"type": "error", "message": "Reconnecting... 1/5 (stream disconnected before completion: Transport error: network error: error decoding response body)"} | error={"type": "error", "message": "Reconnecting... 2/5 (stream disconnected before completion: Transport error: network error: error decoding response body)"} | error={"type": "error", "message": "Reconnecting... 3/5 (stream disconnected before completion: Transport error: network error: error decoding response body)"} | error={"type": "error", "message": "Reconnecting... 4/5 (stream disconnected before completion: Transport error: network error: error decoding response body)"} | error={"type": "error", "message": "Reconnecting …[截断]
+[codex_STALL] rc=124 secs=720.0 files=[]
+    (no events)
+[raw_oc_NOFINISH] rc=124 secs=300.1 files=[]
+    text='RAW_PARTIAL this answer is cut' | finish=unknown | text='RAW_PARTIAL this answer is cut' | finish=unknown | text='RAW_PARTIAL this answer is cut' | finish=unknown | text='RAW_PARTIAL this answer is cut' | finish=unknown | text='RAW_PARTIAL this answer is cut' | finish=unknown | text='RAW_PARTIAL this answer is cut' | finish=unknown | text='RAW_PARTIAL this answer is cut' | finish=unknown | text='RAW_PARTIAL this answer is cut' | finish=unknown | text='RAW_PARTIAL this answer is cut' | finish=unknown | text='RAW_PARTIAL this answer is cut' | finish=unknown | text='RAW_PARTIAL this answer is cut' | finish=unknown | text='RAW_PARTIAL this answer is cut' | finish=unknown | text='RAW_PA …[截断]
+[raw_oc_INCOMPLETE] rc=0 secs=4.6 files=[]
+    text='RAW_PARTIAL this answer is cut' | finish=stop
+[raw_oc_BODYSTALL] rc=124 secs=720.1 files=[]
+    (no events)
+[raw_oc_KEEPALIVE] rc=124 secs=720.1 files=[]
+    (no events)
+[oc_OK] rc=0 secs=4.0 files=[]
+    text='BASELINE_OK all good.' | finish=stop
+[oc_EMPTY] rc=0 secs=3.4 files=[]
+    finish=stop
+[oc_LEN0] rc=0 secs=3.4 files=[]
+    finish=length
+[oc_CUT] rc=1 secs=69.4 files=[]
+    ERROR={"name": "APIError", "data": {"message": "Connection reset by server", "isRetryable": true, "metadata": {"code": "ECONNRESET", "syscall": "", "message": "The socket connection was closed unexpectedly.
+[oc_FLAKY] rc=0 secs=4.6 files=[]
+    text='FLAKY_RECOVERED' | finish=stop
+[oc_TOOLOK] rc=0 secs=5.3 files=['marker_ok.txt']
+    tool=bash status=completed in={"command": "echo TOOL_OK > marker_ok.txt"} | finish=tool-calls | text='TOOL_DONE' | finish=stop
+[oc_TRUNCTOOL] rc=0 secs=4.7 files=[]
+    tool=invalid status=completed in={"tool": "bash", "error": "Invalid input for tool bash: JSON parsing failed: Tex | finish=tool-calls | text='AFTER_TRUNC' | finish=stop
+[oc_TOOLCUT] rc=1 secs=70.7 files=[]
+    ERROR={"name": "APIError", "data": {"message": "Connection reset by server", "isRetryable": true, "metadata": {"code": "ECONNRESET", "syscall": "", "message": "The socket connection was closed unexpectedly.
+[oc_STALL] rc=124 secs=720.1 files=[]
+    (no events)

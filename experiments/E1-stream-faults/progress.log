@@ -1,0 +1,30 @@
+17:49:01 cc OK rc=0 secs=0.5
+17:49:01 cc EMPTY rc=0 secs=0.5
+17:49:02 cc LEN0 rc=1 secs=0.6
+17:49:04 oc OK rc=0 secs=4.0
+17:49:05 codex OK rc=0 secs=5.3
+17:49:07 oc EMPTY rc=0 secs=3.4
+17:49:11 codex EMPTY rc=0 secs=5.3
+17:49:11 oc LEN0 rc=0 secs=3.4
+17:49:16 codex LEN0 rc=0 secs=5.3
+17:49:23 codex CUT rc=1 secs=7.2
+17:49:29 codex FLAKY rc=0 secs=5.5
+17:49:34 codex TOOLOK rc=0 secs=5.4
+17:49:40 codex TRUNCTOOL rc=0 secs=5.3
+17:49:48 codex TOOLCUT rc=1 secs=8.2
+17:50:20 oc CUT rc=1 secs=69.4
+17:50:25 oc FLAKY rc=0 secs=4.6
+17:50:30 oc TOOLOK rc=0 secs=5.3
+17:50:35 oc TRUNCTOOL rc=0 secs=4.7
+17:51:46 oc TOOLCUT rc=1 secs=70.7
+17:52:04 cc CUT rc=0 secs=182.3
+17:52:05 cc FLAKY rc=0 secs=1.0
+17:52:06 cc TOOLOK rc=0 secs=1.4
+17:52:07 cc TRUNCTOOL rc=0 secs=0.5
+17:55:10 cc TOOLCUT rc=0 secs=183.0
+18:01:48 codex STALL rc=124 secs=720.0
+18:01:48 codex ALLDONE
+18:03:46 oc STALL rc=124 secs=720.1
+18:03:46 oc ALLDONE
+18:07:10 cc STALL rc=124 secs=720.0
+18:07:10 cc ALLDONE

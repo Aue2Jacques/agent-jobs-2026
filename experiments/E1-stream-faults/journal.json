@@ -1,0 +1,1012 @@
+[
+ {
+  "ts": 1791222540743,
+  "h": "codex",
+  "path": "/v1/responses",
+  "status": 200,
+  "match": "CASE_OK",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791222540927,
+  "h": "cc",
+  "path": "/v1/messages?beta=true",
+  "status": 200,
+  "match": "CASE_OK",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791222541415,
+  "h": "cc",
+  "path": "/v1/messages?beta=true",
+  "status": 200,
+  "match": "CASE_EMPTY",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791222541442,
+  "h": "cc",
+  "path": "/v1/messages?beta=true",
+  "status": 200,
+  "match": "CASE_EMPTY",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791222542017,
+  "h": "cc",
+  "path": "/v1/messages?beta=true",
+  "status": 200,
+  "match": "CASE_LEN0",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791222542042,
+  "h": "cc",
+  "path": "/v1/messages?beta=true",
+  "status": 200,
+  "match": "CASE_LEN0",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791222542060,
+  "h": "cc",
+  "path": "/v1/messages?beta=true",
+  "status": 200,
+  "match": "CASE_LEN0",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791222542076,
+  "h": "cc",
+  "path": "/v1/messages?beta=true",
+  "status": 200,
+  "match": "CASE_LEN0",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791222542581,
+  "h": "cc",
+  "path": "/v1/messages?beta=true",
+  "status": 200,
+  "match": "CASE_CUT",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222543321,
+  "h": "cc",
+  "path": "/v1/messages?beta=true",
+  "status": 200,
+  "match": "CASE_CUT",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222543432,
+  "h": "oc",
+  "path": "/v1/chat/completions",
+  "status": 200,
+  "match": "CASE_OK",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791222544301,
+  "h": "oc",
+  "path": "/v1/chat/completions",
+  "status": 200,
+  "match": "CASE_OK",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791222544518,
+  "h": "cc",
+  "path": "/v1/messages?beta=true",
+  "status": 200,
+  "match": "CASE_CUT",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222546102,
+  "h": "codex",
+  "path": "/v1/responses",
+  "status": 200,
+  "match": "CASE_EMPTY",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791222547141,
+  "h": "oc",
+  "path": "/v1/chat/completions",
+  "status": 200,
+  "match": "CASE_EMPTY",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791222547178,
+  "h": "cc",
+  "path": "/v1/messages?beta=true",
+  "status": 200,
+  "match": "CASE_CUT",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222547759,
+  "h": "oc",
+  "path": "/v1/chat/completions",
+  "status": 200,
+  "match": "CASE_EMPTY",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791222550586,
+  "h": "oc",
+  "path": "/v1/chat/completions",
+  "status": 200,
+  "match": "CASE_LEN0",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791222551197,
+  "h": "oc",
+  "path": "/v1/chat/completions",
+  "status": 200,
+  "match": "CASE_LEN0",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791222551423,
+  "h": "codex",
+  "path": "/v1/responses",
+  "status": 200,
+  "match": "CASE_LEN0",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791222551593,
+  "h": "cc",
+  "path": "/v1/messages?beta=true",
+  "status": 200,
+  "match": "CASE_CUT",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222554144,
+  "h": "oc",
+  "path": "/v1/chat/completions",
+  "status": 200,
+  "match": "CASE_CUT",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222554771,
+  "h": "oc",
+  "path": "/v1/chat/completions",
+  "status": 200,
+  "match": "CASE_CUT",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222556743,
+  "h": "codex",
+  "path": "/v1/responses",
+  "status": 200,
+  "match": "CASE_CUT",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222557092,
+  "h": "codex",
+  "path": "/v1/responses",
+  "status": 200,
+  "match": "CASE_CUT",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222557234,
+  "h": "oc",
+  "path": "/v1/chat/completions",
+  "status": 200,
+  "match": "CASE_CUT",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222557657,
+  "h": "codex",
+  "path": "/v1/responses",
+  "status": 200,
+  "match": "CASE_CUT",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222558564,
+  "h": "codex",
+  "path": "/v1/responses",
+  "status": 200,
+  "match": "CASE_CUT",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222560177,
+  "h": "cc",
+  "path": "/v1/messages?beta=true",
+  "status": 200,
+  "match": "CASE_CUT",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222560395,
+  "h": "codex",
+  "path": "/v1/responses",
+  "status": 200,
+  "match": "CASE_CUT",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222561421,
+  "h": "oc",
+  "path": "/v1/chat/completions",
+  "status": 200,
+  "match": "CASE_CUT",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222563496,
+  "h": "codex",
+  "path": "/v1/responses",
+  "status": 200,
+  "match": "CASE_CUT",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222563954,
+  "h": "codex",
+  "path": "/v1/responses",
+  "status": 500,
+  "match": "CASE_FLAKY_codex",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791222564151,
+  "h": "codex",
+  "path": "/v1/responses",
+  "status": 200,
+  "match": "CASE_FLAKY_codex",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791222569508,
+  "h": "codex",
+  "path": "/v1/responses",
+  "status": 200,
+  "match": "CASE_TOOLOK_codex",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791222569596,
+  "h": "codex",
+  "path": "/v1/responses",
+  "status": 200,
+  "match": "CASE_TOOLOK_codex",
+  "toolres": true,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791222570165,
+  "h": "oc",
+  "path": "/v1/chat/completions",
+  "status": 200,
+  "match": "CASE_CUT",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222574921,
+  "h": "codex",
+  "path": "/v1/responses",
+  "status": 200,
+  "match": "CASE_TRUNCTOOL_codex",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791222574944,
+  "h": "codex",
+  "path": "/v1/responses",
+  "status": 200,
+  "match": "CASE_TRUNCTOOL_codex",
+  "toolres": true,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791222578640,
+  "h": "cc",
+  "path": "/v1/messages?beta=true",
+  "status": 200,
+  "match": "CASE_CUT",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222580269,
+  "h": "codex",
+  "path": "/v1/responses",
+  "status": 200,
+  "match": "CASE_TOOLCUT_codex",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222580677,
+  "h": "codex",
+  "path": "/v1/responses",
+  "status": 200,
+  "match": "CASE_TOOLCUT_codex",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222581274,
+  "h": "codex",
+  "path": "/v1/responses",
+  "status": 200,
+  "match": "CASE_TOOLCUT_codex",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222582363,
+  "h": "codex",
+  "path": "/v1/responses",
+  "status": 200,
+  "match": "CASE_TOOLCUT_codex",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222584255,
+  "h": "codex",
+  "path": "/v1/responses",
+  "status": 200,
+  "match": "CASE_TOOLCUT_codex",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222587976,
+  "h": "codex",
+  "path": "/v1/responses",
+  "status": 200,
+  "match": "CASE_TOOLCUT_codex",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222588488,
+  "h": "codex",
+  "path": "/v1/responses",
+  "status": 200,
+  "match": "CASE_STALL",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791222590328,
+  "h": "oc",
+  "path": "/v1/chat/completions",
+  "status": 200,
+  "match": "CASE_CUT",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222615666,
+  "h": "cc",
+  "path": "/v1/messages?beta=true",
+  "status": 200,
+  "match": "CASE_CUT",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222620506,
+  "h": "oc",
+  "path": "/v1/chat/completions",
+  "status": 200,
+  "match": "CASE_CUT",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222624444,
+  "h": "oc",
+  "path": "/v1/chat/completions",
+  "status": 500,
+  "match": "CASE_FLAKY_oc",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791222625229,
+  "h": "oc",
+  "path": "/v1/chat/completions",
+  "status": 200,
+  "match": "CASE_FLAKY_oc",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791222629033,
+  "h": "oc",
+  "path": "/v1/chat/completions",
+  "status": 200,
+  "match": "CASE_TOOLOK_oc",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791222630032,
+  "h": "oc",
+  "path": "/v1/chat/completions",
+  "status": 200,
+  "match": "CASE_TOOLOK_oc",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791222630326,
+  "h": "oc",
+  "path": "/v1/chat/completions",
+  "status": 200,
+  "match": "CASE_TOOLOK_oc",
+  "toolres": true,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791222634456,
+  "h": "oc",
+  "path": "/v1/chat/completions",
+  "status": 200,
+  "match": "CASE_TRUNCTOOL_oc",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791222635231,
+  "h": "oc",
+  "path": "/v1/chat/completions",
+  "status": 200,
+  "match": "CASE_TRUNCTOOL_oc",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791222635385,
+  "h": "oc",
+  "path": "/v1/chat/completions",
+  "status": 200,
+  "match": "CASE_TRUNCTOOL_oc",
+  "toolres": true,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791222638550,
+  "h": "oc",
+  "path": "/v1/chat/completions",
+  "status": 200,
+  "match": "CASE_TOOLCUT_oc",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222640353,
+  "h": "oc",
+  "path": "/v1/chat/completions",
+  "status": 200,
+  "match": "CASE_TOOLCUT_oc",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222641695,
+  "h": "oc",
+  "path": "/v1/chat/completions",
+  "status": 200,
+  "match": "CASE_TOOLCUT_oc",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222643663,
+  "h": "oc",
+  "path": "/v1/chat/completions",
+  "status": 200,
+  "match": "CASE_TOOLCUT_oc",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222646782,
+  "h": "oc",
+  "path": "/v1/chat/completions",
+  "status": 200,
+  "match": "CASE_TOOLCUT_oc",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222647945,
+  "h": "cc",
+  "path": "/v1/messages?beta=true",
+  "status": 200,
+  "match": "CASE_CUT",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222648076,
+  "h": "oc",
+  "path": "/v1/chat/completions",
+  "status": 200,
+  "match": "CASE_TOOLCUT_oc",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222658088,
+  "h": "oc",
+  "path": "/v1/chat/completions",
+  "status": 200,
+  "match": "CASE_TOOLCUT_oc",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222675476,
+  "h": "oc",
+  "path": "/v1/chat/completions",
+  "status": 200,
+  "match": "CASE_TOOLCUT_oc",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222685581,
+  "h": "cc",
+  "path": "/v1/messages?beta=true",
+  "status": 200,
+  "match": "CASE_CUT",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222705704,
+  "h": "oc",
+  "path": "/v1/chat/completions",
+  "status": 200,
+  "match": "CASE_TOOLCUT_oc",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222710323,
+  "h": "oc",
+  "path": "/v1/chat/completions",
+  "status": 200,
+  "match": "CASE_STALL",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791222711247,
+  "h": "oc",
+  "path": "/v1/chat/completions",
+  "status": 200,
+  "match": "CASE_STALL",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791222724205,
+  "h": "cc",
+  "path": "/v1/messages?beta=true",
+  "status": 200,
+  "match": "CASE_CUT",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222724365,
+  "h": "cc",
+  "path": "/v1/messages?beta=true",
+  "status": 200,
+  "match": "CASE_CUT",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791222724838,
+  "h": "cc",
+  "path": "/v1/messages?beta=true",
+  "status": 500,
+  "match": "CASE_FLAKY_cc",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791222725421,
+  "h": "cc",
+  "path": "/v1/messages?beta=true",
+  "status": 200,
+  "match": "CASE_FLAKY_cc",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791222725904,
+  "h": "cc",
+  "path": "/v1/messages?beta=true",
+  "status": 200,
+  "match": "CASE_TOOLOK_cc",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791222726839,
+  "h": "cc",
+  "path": "/v1/messages?beta=true",
+  "status": 200,
+  "match": "CASE_TOOLOK_cc",
+  "toolres": true,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791222727307,
+  "h": "cc",
+  "path": "/v1/messages?beta=true",
+  "status": 200,
+  "match": "CASE_TRUNCTOOL_cc",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791222727341,
+  "h": "cc",
+  "path": "/v1/messages?beta=true",
+  "status": 200,
+  "match": "CASE_TRUNCTOOL_cc",
+  "toolres": true,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791222727849,
+  "h": "cc",
+  "path": "/v1/messages?beta=true",
+  "status": 200,
+  "match": "CASE_TOOLCUT_cc",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222728589,
+  "h": "cc",
+  "path": "/v1/messages?beta=true",
+  "status": 200,
+  "match": "CASE_TOOLCUT_cc",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222729979,
+  "h": "cc",
+  "path": "/v1/messages?beta=true",
+  "status": 200,
+  "match": "CASE_TOOLCUT_cc",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222732234,
+  "h": "cc",
+  "path": "/v1/messages?beta=true",
+  "status": 200,
+  "match": "CASE_TOOLCUT_cc",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222736852,
+  "h": "cc",
+  "path": "/v1/messages?beta=true",
+  "status": 200,
+  "match": "CASE_TOOLCUT_cc",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222745490,
+  "h": "cc",
+  "path": "/v1/messages?beta=true",
+  "status": 200,
+  "match": "CASE_TOOLCUT_cc",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222762160,
+  "h": "cc",
+  "path": "/v1/messages?beta=true",
+  "status": 200,
+  "match": "CASE_TOOLCUT_cc",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222800992,
+  "h": "cc",
+  "path": "/v1/messages?beta=true",
+  "status": 200,
+  "match": "CASE_TOOLCUT_cc",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222836952,
+  "h": "cc",
+  "path": "/v1/messages?beta=true",
+  "status": 200,
+  "match": "CASE_TOOLCUT_cc",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222870003,
+  "h": "cc",
+  "path": "/v1/messages?beta=true",
+  "status": 200,
+  "match": "CASE_TOOLCUT_cc",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222909241,
+  "h": "cc",
+  "path": "/v1/messages?beta=true",
+  "status": 200,
+  "match": "CASE_TOOLCUT_cc",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791222909451,
+  "h": "cc",
+  "path": "/v1/messages?beta=true",
+  "status": 200,
+  "match": "CASE_TOOLCUT_cc",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791222910359,
+  "h": "cc",
+  "path": "/v1/messages?beta=true",
+  "status": 200,
+  "match": "CASE_TOOLCUT_cc",
+  "toolres": true,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791222910837,
+  "h": "cc",
+  "path": "/v1/messages?beta=true",
+  "status": 200,
+  "match": "CASE_STALL",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791223013579,
+  "h": "oc",
+  "path": "/v1/chat/completions",
+  "status": 200,
+  "match": "CASE_STALL",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791223209767,
+  "h": "curl/8.5.0",
+  "path": "/v1/messages",
+  "status": 200,
+  "match": "CASE_TOOLCUT_cc",
+  "toolres": null,
+  "interrupted": true,
+  "reason": "truncateAfterChunks"
+ },
+ {
+  "ts": 1791223272529,
+  "h": "cc",
+  "path": "/v1/messages?beta=true",
+  "status": 200,
+  "match": "CASE_STALL",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791223296648,
+  "h": "curl/8.5.0",
+  "path": "/v1/responses",
+  "status": 200,
+  "match": "CASE_LEN0",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791223296657,
+  "h": "curl/8.5.0",
+  "path": "/v1/chat/completions",
+  "status": 200,
+  "match": "CASE_LEN0",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791223296665,
+  "h": "curl/8.5.0",
+  "path": "/v1/messages",
+  "status": 200,
+  "match": "CASE_LEN0",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791223303397,
+  "h": "curl/8.5.0",
+  "path": "/v1/responses",
+  "status": 200,
+  "match": "CASE_LEN0",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ },
+ {
+  "ts": 1791223318001,
+  "h": "oc",
+  "path": "/v1/chat/completions",
+  "status": 200,
+  "match": "CASE_STALL",
+  "toolres": null,
+  "interrupted": null,
+  "reason": null
+ }
+]

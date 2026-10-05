@@ -100,6 +100,15 @@
 - 成立：方向站得住，开始做故障清单。
 - 不成立：都修好了，说明需求已经被吃掉，换方向。不花钱，只花时间。
 
+### 结果（2026-10-05，E1）
+
+**假设成立**，详见 [experiments/E1-stream-faults.md](experiments/E1-stream-faults.md)。换成你说的"常见 harness"，测的是 Claude Code、Codex、OpenCode 的最新版：
+- 5 类里复现了 3 类，三家都有"空回复当成功"。
+- Codex 不发响应头时会一直干等。
+- OpenCode 在没有结束标记时死循环，300 秒发了 2001 次请求。
+
+但复现出的问题基本都已有人报过，讲法要从"找新 bug"改成"修 OpenCode 的 Agent Loop 终止判定"。
+
 ## 十、考虑过、排在后面的方向
 
 | 方向 | 为什么排后 |
