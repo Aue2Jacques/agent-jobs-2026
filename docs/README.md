@@ -14,6 +14,7 @@
 | 文件 | 内容 |
 |---|---|
 | [jd-samples.md](jd-samples.md) | 30 条代表性 JD：公司、岗位、招聘类型、要求原文摘录、链接 |
+| [project-direction.md](project-direction.md) | 从 JD 倒推简历核心项目：推荐方向、需求证据、底座、风险、先验证的假设 |
 | [interviews.md](interviews.md) | 16 篇一手面经 + 5 篇二手总结：问了什么、怎么追问 |
 | `../data/jd_agent_eng_137.json` | 137 条 Agent 工程岗 JD 全文（统计用的完整样本） |
 | `../data/interviews_nowcoder_index.json` | 面经索引（标题、日期、链接；全文请看原帖，不转载） |
