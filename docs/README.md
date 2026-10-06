@@ -1,5 +1,7 @@
 # 2026 秋招 Agent 开发岗：JD 与面经统计
 
+> 项目本体已迁到 [harnessprobe](https://github.com/Aue2Jacques/harnessprobe)，最新的方法论、场景、实验以那边为准。
+
 采集日期：2026-10-05（美东）。目的：先看清招聘方要什么，再倒推选题。本轮**不选题**。
 
 > 标记说明
